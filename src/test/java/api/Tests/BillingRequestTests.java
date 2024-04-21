@@ -55,6 +55,6 @@ public class BillingRequestTests {
         .when()
             .post("https://reqres.in/api/users")
         .then()
-            .log().status();
+            .log().body();
     }
 }
