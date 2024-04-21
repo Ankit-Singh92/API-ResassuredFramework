@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-20T15:29:06 IST" name="Default suite" finished-at="2024-04-20T15:29:06 IST" duration-ms="297">
+  <suite started-at="2024-04-21T15:57:17 IST" name="Default suite" finished-at="2024-04-21T15:57:20 IST" duration-ms="3736">
     <groups>
     </groups>
-    <test started-at="2024-04-20T15:29:06 IST" name="Default test" finished-at="2024-04-20T15:29:06 IST" duration-ms="297">
-      <class name="api.Tests.CovertingHashmaptoJSON">
-        <test-method signature="covertjson()[pri:0, instance:api.Tests.CovertingHashmaptoJSON@a2431d0]" started-at="2024-04-20T15:29:06 IST" name="covertjson" finished-at="2024-04-20T15:29:06 IST" duration-ms="251" status="PASS">
+    <test started-at="2024-04-21T15:57:17 IST" name="Default test" finished-at="2024-04-21T15:57:20 IST" duration-ms="3736">
+      <class name="api.Tests.AdjustmentsTest">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.Tests.AdjustmentsTest@67c33749]" started-at="2024-04-21T15:57:17 IST" name="setUpData" finished-at="2024-04-21T15:57:17 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- covertjson -->
-      </class> <!-- api.Tests.CovertingHashmaptoJSON -->
+        </test-method> <!-- setUpData -->
+        <test-method signature="createAdjustmentTC()[pri:0, instance:api.Tests.AdjustmentsTest@67c33749]" started-at="2024-04-21T15:57:17 IST" name="createAdjustmentTC" finished-at="2024-04-21T15:57:20 IST" duration-ms="3693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdjustmentTC -->
+      </class> <!-- api.Tests.AdjustmentsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

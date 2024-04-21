@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.Tests.ResponseValidationUsingMatcher">
+      <class name="api.Tests.AdjustmentsTest">
         <methods>
-          <include name="responseTest"/>
+          <include name="setUpData"/>
+          <include name="createAdjustmentTC"/>
         </methods>
-      </class> <!-- api.Tests.ResponseValidationUsingMatcher -->
+      </class> <!-- api.Tests.AdjustmentsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
